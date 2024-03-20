@@ -19,5 +19,5 @@ export default {
 
 <template>
     <h1>{{text}}</h1>
-    <button @click="count++">You clicked me {{ count }} times.</button>
+    <button type="button" class="btn btn-primary" @click="count++">You clicked me {{ count }} times.</button>
 </template>

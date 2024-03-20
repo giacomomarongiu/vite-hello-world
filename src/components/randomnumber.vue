@@ -9,7 +9,7 @@ export default {
     methods: {
         randomNumber() {
             this.myNumber = Math.floor(Math.random() * 10);
-            console.log(this.myNumber);
+            //console.log(this.myNumber);
         }
     }
 }
@@ -17,7 +17,7 @@ export default {
 
 <template>
     <div>
-        <button @click="randomNumber()">Generate a random myNumber</button>
+        <button type="button" class="btn btn-primary" @click="randomNumber()">Generate a random number</button>
         <h1>{{ myNumber }}</h1>
     </div>
 
