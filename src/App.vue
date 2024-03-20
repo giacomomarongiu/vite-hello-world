@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-<div>{{text}}</div>
+<h1>{{text}}</h1>
 </template>
 
 <style></style>
