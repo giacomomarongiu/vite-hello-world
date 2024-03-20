@@ -24,8 +24,13 @@ export default {
     </ButtonRandom>
     <hr><br>
     <!--Posso riusare le componenti importate!-->
+    <ButtonCounter>
+    </ButtonCounter>
+    <br><br>
+    <hr><br>
     <ButtonRandom>
     </ButtonRandom>
+    <hr><br>
   </div>
 </template>
 
